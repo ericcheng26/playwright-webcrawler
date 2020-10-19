@@ -19,7 +19,6 @@ Headless execution is supported for all browsers on all platforms.
 ## Installation
 
 playwright-webcrawler uses Python 3 (lowest version tested is 3.7.0).  
-We recommend using a virtual environment manager such as [pyenv](https://github.com/pyenv/pyenv).  
 
 Install requirements:  
 
