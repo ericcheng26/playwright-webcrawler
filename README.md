@@ -18,11 +18,11 @@ Headless execution is supported for all browsers on all platforms.
 
 ## Installation
 
-playwright-webcrawler uses Python 3 (lowest version tested is 3.7.0).  
+playwright-webcrawler uses Python 3 (lowest version tested is 3.7.0).
 
-Install requirements:  
+Install requirements:
 
-    pip install -r requirements.txt  
+    pip install -r requirements.txt
 
 > **Note**: playwright-webcrawler contains [Playwright for Python](https://github.com/microsoft/playwright-python). If you want to downloads a recent version of browsers binaries for Chromium, Firefox and WebKit, you must do:
 
@@ -55,8 +55,8 @@ playwright-webcrawler uses configuration files `settings.py` in order to store a
 
 ## Usage
 
-1. Once your configuration file is saved, simply launch your first crawl: `python main.py`
-2. Wait it crawls the whole webiste or exit using `^C-C`
+1. Once your configuration file is saved, simply launch your first crawl: `python main.py <url>`
+2. Wait it crawls the whole webiste or exit using `^C`
 
 ## How is this different from Playwright?
 
