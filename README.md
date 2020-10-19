@@ -70,4 +70,4 @@ This crawler is a general solution for most crawling purposes. If you want to qu
 
 ## Contributing
 
-If you wish to contribute to this repository or to report an issue, please do this [on Github](https://github.com/LeMoussel).
+If you wish to contribute to this repository or to report an issue, please do this [on Github issues](https://github.com/LeMoussel/playwright-webcrawler/issues).
