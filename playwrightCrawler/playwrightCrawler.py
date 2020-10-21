@@ -117,6 +117,9 @@ class PlaywrightCrawler:
         urlToCrawl = await self._linksToCrawl.get()
 
         page = await self._context.newPage()
+
+        page.on("console", lambda m: self.crawllogger.warning("[000] {} Console message : {}".format(m.location['url'], m.text)) if m.type in ['error'] else False)
+
         try:
           response = await page.goto(urlToCrawl)
           if not response.ok:
