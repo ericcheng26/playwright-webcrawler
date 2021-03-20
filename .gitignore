@@ -7,3 +7,4 @@ docs/
 *.org
 Generate_requirements.cmd
 settings.py
+.DS_store
